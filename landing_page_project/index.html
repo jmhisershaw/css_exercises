@@ -5,46 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!--header-->
     <header>
-        <h2>Header Logo</h2>
-        <ul>
+        <div id="logo">Header Logo</div>
+        <ul class="header-list">
             <li>header link one</li>
             <li>header link two</li>
             <li>header link three</li>
         </ul>
     </header>
-    <hero>
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-        <button>Sign up</button>
+<!--hero-->
+    <div class="hero">
+        <div class="content">
+            <h1 id="welcome">This website is awesome</h1>
+            <div id="info">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</div>
+            <button>Sign up</button>
+        </div>
         <img src="" alt="this is a placeholder for an image">
-    </hero>
-    <carousel>
+    </div>
+<!--carousel-->
+    <div class="carousel">
         <h2>Some random information.</h2>
-        <ul>
-            <img src="" alt="blank">
-            <li>this is some subtext under an illustration or image</li>
-            <img src="" alt="blank">
-            <li>this is some subtext under an illustration or image</li>
-            <img src="" alt="blank">
-            <li>this is some subtext under an illustration or image</li>
-            <img src="" alt="blank">
-            <li>this is some subtext under an illustration or image</li>
-        </ul>
-    </carousel>
-    <quote>
-        <p>this is an inspirational quote</p>
+        <ul class="cards">
+            <div class="card">
+                <img src="" alt="blank">
+                <li>this is some subtext under an illustration or image</li>
+            </div>
+            <div class="card">
+                <img src="" alt="blank">
+                <li>this is some subtext under an illustration or image</li>
+            </div>
+            <div class="card">
+                <img src="" alt="blank">
+                <li>this is some subtext under an illustration or image</li>
+            </div>
+            <div class="card">
+                <img src="" alt="blank">
+                <li>this is some subtext under an illustration or image</li>
+            </div>
+         </ul>
+    </div>
+<!--quote-->
+    <div class="quote">
+        <em>this is an inspirational quote</em>
         <p>- person who said it</p>
-    </quote>
-    <cta>
-        <h3>Call to action! It's time!</h3>
-        <p>Sign up for our product by clicking that button right over there!</p>
+    </div>
+<!--cta-->
+    <div class="cta">
+        <div class="left">
+            <strong>Call to action! It's time!</strong>
+            <p class="secondary">Sign up for our product by clicking that button right over there!</p>
+        </div>
         <button>Sign up</button>
-    </cta>
-    <footer>
-        <p>Copyright © The Odin Project 2022</p>
-    </footer>
+    </div>
+<!--footer-->
+    <footer>Copyright © The Odin Project 2022</footer>
 </body>
 </html>
